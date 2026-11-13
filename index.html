@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4f3ef">
+  <title>Leo | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="wordmark" href="#top" aria-label="Leo, home">LEO<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#education">Education</a>
+      <a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero page-grid reveal">
+      <div class="hero-main">
+        <p class="eyebrow">Leo's Portfolio</p>
+        <h1>Here is Leo.<br><span>I build with</span><br>code and circuits.</h1>
+        <p class="hero-description">I am an Electronics and Communication Engineering student at Manipur Technical University. I work across web development and embedded systems, turning what I learn into practical projects.</p>
+        <div class="hero-links">
+          <a class="button button-solid" href="#work">View selected work <span>↘</span></a>
+          <a class="underlined-link" href="https://github.com/t-leo-n" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+        </div>
+      </div>
+      <aside class="hero-aside reveal" aria-label="Profile details">
+        <div class="index-mark">PORTFOLIO</div>
+        <div class="aside-rule"></div>
+        <p class="aside-label">CURRENT FOCUS</p>
+        <p class="aside-focus">Web interfaces<br>Embedded systems<br>Engineering projects</p>
+        <div class="aside-bottom reveal">
+          <span class="availability-dot"></span>
+          <span>OPEN TO LEARNING<br>AND COLLABORATION</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section page-grid reveal" id="about">
+      <div class="section-label"><p>ABOUT ME</p></div>
+      <div class="section-content about-layout">
+        <h2>Engineering gives me a way to turn curiosity into something useful.</h2>
+        <div class="about-copy">
+          <p>I’m Leo currently pursuing B.Tech in Electronics and Communication Engineering at Manipur Technical University.</p>
+          <p>I enjoy programming, exploring how electronic systems work, and building projects that connect software with the physical world. I’m developing my skills step by step through coursework, experiments and independent projects.</p>
+          <p>Beyond technology, I write poetry. It gives me another way to observe, think and create also relexing myself.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section page-grid reveal" id="skills">
+      <div class="section-label"><p>SKILLS</p></div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <h2>What I work with.</h2>
+          <p class="section-intro">A practical toolkit that is still growing through study and projects.</p>
+        </div>
+        <div class="skills-list">
+          <article class="skill-item"><span class="skill-number">01</span><div><h3>Programming</h3><p>C · C++ · Python · JavaScript · Java</p></div><span class="skill-type">CODE</span></article>
+          <article class="skill-item"><span class="skill-number">02</span><div><h3>Web development</h3><p>HTML · CSS · Responsive layouts</p></div><span class="skill-type">WEB</span></article>
+          <article class="skill-item"><span class="skill-number">03</span><div><h3>Embedded systems</h3><p>Arduino · ESP32 · Sensor interfacing</p></div><span class="skill-type">HARDWARE</span></article>
+          <article class="skill-item"><span class="skill-number">04</span><div><h3>Development tools</h3><p>Linux · Git · VS Code</p></div><span class="skill-type">TOOLS</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-grid reveal" id="work">
+      <div class="section-label"><p>SELECTED WORK</p></div>
+      <div class="section-content">
+        <div class="section-heading-row work-heading">
+          <h2>Projects and experiments.</h2>
+          <p class="section-intro">A selection of work I have built or am actively working on.</p>
+        </div>
+        <article class="work-card">
+          <div class="work-meta"><span>01 / DEVELOPMENT</span><span>2026</span></div>
+          <div class="work-title-row"><h3>NERRA</h3><a href="https://t-leo-n.github.io/NERRA/" target="_blank" rel="noopener noreferrer" aria-label="Open NERRA project">↗</a></div>
+          <p class="work-subtitle">Smart Logistics & Accessibility for North East India</p>
+          <p class="work-description">A hackathon project exploring how digital tools and map-based information can support logistics and accessibility across the North Eastern region mostly rural.</p>
+          <div class="tags"><span>JavaScript</span><span>Leaflet</span><span>Web mapping</span><span>GIS</span></div>
+          <a class="work-link" href="https://t-leo-n.github.io/NERA/" target="_blank" rel="noopener noreferrer">Visit project <span>↗</span></a>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-meta"><span>02 / EMBEDDED SYSTEMS & IOT</span><span>IN DEVELOPMENT</span></div>
+          <div class="work-title-row"><h3>Portable Soil Testing System</h3><span class="work-state">ONGOING</span></div>
+          <p class="work-subtitle">A low-cost soil monitors for farmers</p>
+          <p class="work-description">An ESP32-based project concept to measure soil pH, NPK values, moisture almost all, with the longer-term goal of presenting useful crop and nutrient guidance.</p>
+          <div class="tags"><span>ESP32</span><span>RS485 / Modbus</span><span>Sensors</span></div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-meta"><span>03 / ELECTRONICS</span><span>CONTINUOUS LEARNING</span></div>
+          <div class="work-title-row"><h3>Arduino Project</h3><span class="work-state">LEARNING</span></div>
+          <p class="work-subtitle">Circuit concepts, components and microcontrollers</p>
+          <p class="work-description">A developing collection of practical exercises, including circuit analysis, Arduino experiments and embedded programming figuring possible applications.</p>
+          <div class="tags"><span>Electronics</span><span>Arduino</span><span>C programming</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education-section page-grid reveal" id="education">
+      <div class="section-label"><p>EDUCATION</p></div>
+      <div class="section-content education-content">
+        <div class="section-heading-row"><h2>Academic background.</h2></div>
+        <div class="education-entry">
+          <p class="education-date">2025 — Present</p>
+          <div><h3>Bachelor of Technology</h3><p class="education-degree">Electronics and Communication Engineering</p><p class="education-school">Manipur Technical University</p></div>
+          <span class="education-location">MANIPUR, INDIA</span>
+        </div>
+        <div class="education-entry reveal">
+          <p class="education-date">2025 — Passed</p>
+          <div><h3>Arduino and Sensors</h3><p class="education-degree">Training with Arduino and Sensors</p><p class="education-school">Manipur Technical University</p></div>
+          <span class="education-location">MANIPUR, INDIA</span>
+        </div>
+        <div class="education-entry">
+          <p class="education-date">2024 — Passed</p>
+          <div><h3>Programming course</h3><p class="education-degree">AI and Machine Learing</p><p class="education-school">Not available</p></div>
+          <span class="education-location">MANIPUR, INDIA</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section page-grid reveal" id="contact">
+      <div class="section-label"><p>CONTACT</p></div>
+      <div class="contact-content">
+        <p class="eyebrow">HAVE A PROJECT OR AN IDEA IN MIND?</p>
+        <h2>Let's talk about<br>what we can build.</h2>
+        <p class="contact-copy">For project discussions, collaboration or a conversation about technology, find me on GitHub or Email.</p>
+        <a class="button button-light" href="https://github.com/t-leo-n" target="_blank" rel="noopener noreferrer">Connect on GitHub <span>↗</span></a>
+        <a class="button button-light" href="https://mail.google.com/mail/?view=cm&fs=1&to=tongbramlilabratakhaba@gmail.com"   target="_blank"  rel="noopener noreferrer"> Email Me <span>↗</span></a>
+      </div>
+      <footer class="footer"><span></span></footer>
+    </section>
+  </main>
+</body>
+</html>
